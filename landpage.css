@@ -1,0 +1,96 @@
+.comentarios{
+    display: flex;
+    flex-direction: row;
+}
+body{
+    background-image: url(fondo.jpg) ;
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+.escribircomentarios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(243, 242, 240);
+    border-style: groove;
+    border-color: black;
+    padding: 2%;
+    margin-left: 150px;
+    width: 850px;
+}
+#titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+#btnenviar{
+    background-color: blue;
+    margin-top: 5%;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 3rem;
+    border-color: black;
+    cursor: pointer!important;
+    width: 25%;
+    height: 60px;
+    text-shadow: .1rem .1rem .1rem #333;
+    font-size: 1.6rem;
+    margin-left: 40%;
+}
+#btnenviar:hover{
+    background-color: aliceblue;
+    color: blue;
+    text-shadow: .0rem .0rem .0rem #333;
+}
+input,.textarea{
+    background-color:rgb(255, 255, 255);
+}
+input:focus{
+    border: 3px solid #0075ff;
+    outline: none;
+}
+.error1{
+    color:rgb(235, 25, 67);
+    font-size: medium;
+}
+.enviado{
+    color : rgb(16, 189, 16);
+    font-size: medium;
+    text-align: center;
+}
+.mensajeerror{
+    background-color: rgb(235, 25, 67);
+    color: black;
+    border-style: solid;
+    border-color: black;
+    padding: 1%;
+    margin-top: 8%;
+}
+.panelcomentarios{
+    justify-content: center;
+    background-color: rgb(243, 242, 240);
+    border-style: groove;
+    border-color: black;
+    padding: 2%;
+    margin-left: 2%;
+    height: 400px;
+    width: 100%;
+    margin-right: 130px;
+}
+#tablacomentarios{
+    border-style: groove;
+    border-color: black; 
+}
+.carousel{
+    margin: 100px;
+    margin-bottom: 35px;
+}
+#accordionFlushExample{
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
